@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques_2</title>
+    <style>
+        .today {
+            color: blue;
+            text-decoration: underline;
+        }
+        div,   h1,   h2 {
+            margin-left: 20px;
+            font-size: 25px;
+        }
+        .ans-2i{
+            font-size: 40px;
+        }
+        .ans-2{
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .ans-3{
+            font-size: 40px;
+            font-weight: bold;
+
+        }
+
+        .copyright ,.trademark {
+            font-size: 28px;
+
+        }
+        table {
+            text-align: center;
+            border-collapse: collapse;
+            margin-bottom: 70px;
+            margin-top: 0;
+            background-color: black;
+            color: white;
+        }
+
+        #s-button {
+            width: 80px;
+            margin-right: 80px;
+            font-weight: 600;
+
+        }
+
+        #r-button {
+            width: 80px;
+            font-weight: 600;
+        }
+
+        th,
+        td {
+            border: 2px solid rgb(145, 143, 143);
+            padding: 20px;
+
+
+        }
+
+        .gender {
+            display: inline-block;
+        }
+
+        .answer-4 {
+            font-size: 25px;
+            margin-left: 20px;
+        }
+
+        .ans-4 {
+            font-size: 50px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        .country {
+            font-size: 25px;
+
+
+        }
+
+        .message {
+            font-size: 25px;
+            margin-top: 0;
+
+        }
+
+        .message-title {
+            font-size: 20px;
+            margin-left: 20px;
+            margin-bottom: 0;
+
+        }
+
+        .subscribe {
+            font-size: 25px;
+            margin-bottom: 30px;
+
+        }
+
+        .name {
+            margin-bottom: 16px;
+        }
+
+        .answer-4b {
+            font-size: 50px;
+            font-weight: bold;
+
+        }
+
+        .last {
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="answer ">
+        <h1 class="ans-2i">Answer - 2 (i)</h1>
+        <p> <span class="today">Today</span> is the 9th October and 2<sup>2</sup> = 4 always . </p>
+    </div>
+    <div class="answer-2">
+        <h1 class="ans-2"> Answer - 2 (ii)</h1>
+        <p class="copyright">Symbol of copyright => &copy;</p>
+    </div>
+    <div>
+        <p class="trademark">Symbol of trademark => &trade;</p>
+    </div>
+    <div class="answer-3">
+        <h1 class="ans-3">Answer - 3 </h1>
+        <table>
+            <tr>
+                <th colspan="4">Student Information</th>
+            </tr>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+
+            <tr>
+                <th>city</th>
+                <th>House</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    <h1 class="ans-4">Answer - 4 (i)</h1>
+    <form method="post">
+    <div class="answer-4">
+            <label for="Name">Name</label>
+            <input type="text" name="Name" id="Name">
+    </div>        
+        <div>
+            <p class="gender">sex : </p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+    <div class="country">
+            <label for="Country">Country : </label>
+            <select name="Country" id="Country" placeholder="choose a option">
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="U.S.A">U.S.A.</option>
+                <option value="Russia">Russia</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Bangladesh">Bangladesh</option>
+            </select>
+    </div>
+
+    <p class="message-title">Message : </p>
+    <div class="message">
+        <textarea name="message" id="message-1" rows="5" cols="50"></textarea>
+    </div>
+    <div class="subscribe">
+
+            <input type="checkbox" id="Subscribe">
+            <label for="Subscribe">Subscribe ?</label>
+    </div>
+
+    <div>
+
+            <input type="submit" name="submit-button" id="s-button">
+            <input type="reset" name="reset-button" id="r-button">
+    </div>
+    </form>
+    
+    <h1 class="answer-4b">Answer - 4 (ii)</h1>
+    <h2>Feedback Form</h2>
+    <form method="post">
+    <div class="name">    
+            <label for="name">Name :</label>
+            <input type="text" id="name" placeholder="Write your Name">
+    </div>
+    <div>
+        <label for="email">Email :</label>
+        <input type="text" id="email" placeholder="Write your Email">
+    </div>
+        <p class="message-title">Message : </p>
+        <div class="message">
+            <textarea name="message" id="message-2" rows="5" cols="50"></textarea>
+        </div>
+        <h2>Rate us out of 5 </h2>
+        <div>
+            <input type="radio" id="rating-1" name="rating" value="rating-1`">
+            <label for="rating-1">1</label>
+            <br>
+            <input type="radio" id="rating-2" name="rating" value="rating-2">
+            <label for="rating-2">2</label>
+            <br>
+            <input type="radio" id="rating-3" name="rating" value="rating-3">
+            <label for="rating-3">3</label>
+            <br>
+            <input type="radio" id="rating-4" name="rating" value="rating-4">
+            <label for="rating-4">4</label>
+            <br>
+            <input type="radio" id="rating-5" name="rating" value="rating-5">
+            <label for="rating-5">5</label>
+
+        </div>
+        <div class="last">
+            <input type="submit" value="Send your messaage!">
+            <input type="reset">
+           
+        </div>
+    </form> 
+
+
+</body>
+
+</html>
